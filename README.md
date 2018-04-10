@@ -11,7 +11,7 @@ To view the example scene and example script ConsolePrinter example, download th
 The Control Wheel is a circular, segmented action selector. It is especially useful for VR, where button inputs are limited and non-diegetic UI is more appropriate.
 
 You can attach the ControlWheel component to any GameObject. It can be controlled by another, more user-specific script by calling: 
- - 	AddControlWheelAction / AddControlWheelActions		(one / mant ControlWheelSegments)
+ - 	AddControlWheelAction / AddControlWheelActions		(one / many ControlWheelSegments)
  -  RemoveControlWheelAction							            (string name)
  -  DisplayControlWheel									              ()
  -  HideControlWheel									                ()
