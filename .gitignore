@@ -5,5 +5,5 @@
 !ProjectSettings
 !ProjectSettings/**
 !.gitignore
-!README
+!README.md
 !LICENSE
