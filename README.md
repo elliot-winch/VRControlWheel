@@ -17,7 +17,7 @@ You can attach the ControlWheel component to any GameObject. It can be controlle
  -  HideControlWheel									                ()
  -  HighlightSectionAtLocation							          (Vector2 locationInCircle)
  - 	Select												                    (Vector2 locationInCircle)
-  - Calls the associated action for the segment found by locationInCirlce
+     - Calls the associated action for the segment found by locationInCirlce
  
  ### Preferred Position:
 If a segment is initialised with a preferred postion, the ControlWheel will tyr its best to honour the segment's position. However, for an odd number of segments, the segment might not appear where intended. Also, if two segments have the same preferred position, the one added first will always be assigned the position and any subsequent will be treated as if they had no preferred position.
