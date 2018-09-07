@@ -25,8 +25,7 @@ using UnityEngine;
  *  might not appear where intended. Also, if two segments have the same preferred position, the one added first will always be assigned the position and any subsequent will be
  *  treated as if they had no preferred position.
  */
-namespace FactualVR.HyperTunnel.UI
-{
+
     public class ControlWheel : MonoBehaviour
     {
 
@@ -601,4 +600,3 @@ namespace FactualVR.HyperTunnel.UI
             this.ShowLabel = showLabel;
         }
     }
-}
